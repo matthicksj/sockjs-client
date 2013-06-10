@@ -1,7 +1,7 @@
 exports.config = {
     client_opts: {
         // Address of a sockjs test server.
-        url: 'http://YOURAPP-YOURDOMAIN.rhcloud.com:8000',
+        url: 'http://sockjs-YOURDOMAIN.rhcloud.com:8000',
         sockjs_opts: {
             devel: true,
             debug: true,
