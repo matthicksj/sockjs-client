@@ -1,12 +1,4 @@
-protocols = ['websocket',
-        'xdr-streaming',
-        'xhr-streaming',
-        'iframe-eventsource',
-        'iframe-htmlfile',
-        'xdr-polling',
-        'xhr-polling',
-        'iframe-xhr-polling',
-        'jsonp-polling']
+protocols = ['websocket' ]
 
 newSockJS = (path, protocol) ->
     url = if /^http/.test(path) then path else client_opts.url + path
